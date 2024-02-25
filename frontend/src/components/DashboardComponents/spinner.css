@@ -1,0 +1,30 @@
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .loading-spinner-bar {
+    width: 4px;
+    height: 18px;
+    margin: 0 8px;
+    border-radius: 4px;
+    animation: loading-spinner 1s ease-in-out infinite;
+  }
+  
+  @keyframes loading-spinner {
+    0% {
+      transform: scale(1);
+    }
+    20% {
+      transform: scale(1, 2.5);
+    }
+    40% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  
+  
