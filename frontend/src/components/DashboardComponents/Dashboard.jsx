@@ -85,8 +85,8 @@ const Dashboard = () => {
                 <footer>
                   <cite>
                   <p>Course :  {output.coursename}</p>
-          <p>Grade : {output.Grade}</p>
-          <p>Instructor: {output.issuername}</p>
+                  <p>Grade : {output.Grade}</p>
+                  <p>Teacher : {output.issuername}</p>
                   </cite>
 
                 </footer>

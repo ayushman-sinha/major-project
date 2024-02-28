@@ -8,8 +8,7 @@ import Footer from "./DashboardComponents/footer";
 function UserDash() {
   return (
     <div>
-      <Navbar />
-
+      <Navbar/>
       <div className="container-fluid" id="main">
         <div className="row row-offcanvas row-offcanvas-left">
           <Sidebar />

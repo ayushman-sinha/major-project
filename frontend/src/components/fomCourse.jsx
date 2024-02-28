@@ -177,9 +177,11 @@ const Studentslist = async (id) => {
                         <button
                           className="btn1"
                           onClick={() => setButtonPopup(false)}
-                        >
+                        >.
+
+                        
                           <img
-                            src="https://i.ibb.co/9Y3FKf7/C1-5.png"
+                            src={C1}
                             alt="C1-2"
                             style={{ width: "100%" }}
                           />
@@ -194,7 +196,7 @@ const Studentslist = async (id) => {
                           onClick={() => setButtonPopup(false)}
                         >
                           <img
-                            src="https://i.ibb.co/qnfJyTH/C1-2.png"
+                            src={C2}
                             alt="C1-2"
                             style={{ width: "100%" }}
                           />
@@ -209,61 +211,15 @@ const Studentslist = async (id) => {
                           onClick={() => setButtonPopup(false)}
                         >
                           <img
-                            src="https://i.ibb.co/m66bWHg/C1-3.png"
+                            src={C5}
                             alt="C1-2"
                             style={{ width: "100%" }}
                           />
                         </button>
                       </div>
                     </div>
-                    <div className="row">
-                      <div
-                        className="column"
-                        onClick={(e) => SetValue("C4")}
-                      >
-                        <button
-                          className="btn1"
-                          onClick={() => setButtonPopup(false)}
-                        >
-                          <img
-                            src="https://i.ibb.co/zNBtSpx/C1-4.png"
-                            alt="C1-2"
-                            style={{ width: "100%" }}
-                          />
-                        </button>
-                      </div>
-                      <div
-                        className="column"
-                        onClick={(e) => SetValue("C5")}
-                      >
-                        <button
-                          className="btn1"
-                          onClick={() => setButtonPopup(false)}
-                        >
-                          <img
-                            src="https://i.ibb.co/gZDzgbj/Green-and-Gold-Modern-Certificate-of-Completion-1.png"
-                            alt="Green-and-Gold-Modern-Certificate-of-Completion"
-                            style={{ width: "100%" }}
-                          />
-                        </button>
-                      </div>
-
-                      <div
-                        className="column"
-                        onClick={(e) => SetValue("C6")}
-                      >
-                        <button
-                          className="btn1"
-                          onClick={() => setButtonPopup(false)}
-                        >
-                          <img
-                            src="https://i.ibb.co/yfBmLCq/C1-1.png"
-                            alt="C1-3"
-                            style={{ width: "100%" }}
-                          />
-                        </button>
-                      </div>
-                    </div>
+                  
+                    
                   </div>
                 </Popup>
               </div>

@@ -19,7 +19,6 @@ function Footer() {
     </div>
     <div class="col-sm">
     <p className="cpwright" style={{color:"#ffff", marginLeft:"20px"}}>
-        
         Tools and Technologies Used:
       </p>
     <p className="svw">
