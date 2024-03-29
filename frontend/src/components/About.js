@@ -25,7 +25,7 @@ function Viewcertificate() {
   </p>
 
   <div class="image-container">
-  <img class="imagec" src={img} alt="About us" />
+  {/* <img class="imagec" src={img} alt="About us" /> */}
 
   </div>
   {/* <p class="description">

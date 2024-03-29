@@ -4,7 +4,7 @@ const mongoose = require("mongoose");
 //connect to local database
 
 
-mongoose.connect('mongodb+srv://digicerti:jrdv123@digi.ce0yc3q.mongodb.net/?retryWrites=true&w=majority' , {
+mongoose.connect('mongodb+srv://ayush69:ayush69@cluster0.6yzan.mongodb.net/' , {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {

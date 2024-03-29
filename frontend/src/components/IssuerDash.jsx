@@ -14,7 +14,7 @@ function UserDash() {
           <Sidebar />
           <Dashboard2 />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   );
